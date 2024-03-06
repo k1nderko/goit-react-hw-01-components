@@ -1,0 +1,29 @@
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.table thead {
+  color: darkred;
+}
+
+.table tbody {
+  border-top: 2px solid #ccc;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
